@@ -15,14 +15,10 @@
     clear: both;
 }
 
-body {
-    align-items: center;
-}
-
 main {
     margin: 0 auto;
     position: absolute;
-    left: 10%;
+    left: 15%;
     top: 5%;
 } 
 
