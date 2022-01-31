@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.clearfix::after {
+    content: "";
+    display:table;
+    clear: both;
+}
+
+.aside-left-up {
+    position: relative;
+    float: left;
+    width: 32%;
+    margin-right: 2%;
+    border: 3px dashed red;
+    /* text-align: center; */
+}
+
+.aside-left-up .first-image {
+    width: 450px;
+    background-position: center;
+    background-size: cover;
+}
+
+/* banner */
+.banner {
+    position: absolute;
+    bottom: 75px;
+}
+
+.banner1 {
+    display: inline-block;
+    background-color: #eb0037;
+    color: white;
+    padding: 4px;
+    text-align: center;
+}
+
+.banner2 {
+    display: inline-block;
+    background-color: #00875a;
+    color: white;
+    padding: 4px;
+    text-align: center;
+}
+
+/* / banner */
+
+/* paragrafo con brand e prezzo */
+.paragrafo-aside {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.brand {
+    font-size: 12px;
+}
+
+.low-price {
+    color: red;
+}
+
+.high-price {
+    color: black;
+    text-decoration: line-through;
+    font-weight: normal;
+
+}
+/* / paragrafo con brand e prezzo */
