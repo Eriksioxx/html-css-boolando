@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: "";
+    display:table;
+    clear: both;
+}
+
+main {
+    margin: 0 auto;
+    position: absolute;
+    left: 10%;
+    top: 5%;
+} 
+
+.riga1 {
+    display: flex;
+    padding: 0 6px;
+}
+
+/* 1o riquadro */
+.aside-left-up {
+    float: left;
+    margin-right: 2%;
+    position: relative;
+}
+
+.first-image{
+    background-image: url(../img/1.webp);
+    height: 500px;
+    width: 325px;
+    background-position: center;
+    background-size: cover;
+    
+}
+/* / 1o riquadro */
+
+/* 2o riquadro */
+.aside-center-up {
+    position: relative;
+    float: left;
+    margin-right: 2%;
+}
+
+.second-image{
+    background-image: url(../img/2.webp);
+    display: inline-block;
+    height: 500px;
+    width: 325px;
+    background-position: center;
+    background-size: cover;
+}
+/* / 2o riquadro */
+
+/* 3o riquadro */
+.aside-right-up {
+    position: relative;
+    float: left;
+}
+
+.third-image{
+    background-image: url(../img/3.webp);
+    display: inline-block;
+    height: 500px;
+    width: 325px;
+    background-position: center;
+    background-size: cover;
+}
+/* / 3o riquadro */
+
+.riga2 {
+    display: flex;
+    margin: 15px 0;
+    padding: 0 6px;
+}
+
+/* 4o riquadro */
+.aside-left-down {
+    float: left;
+    margin-right: 2%;
+    position: relative;
+}
+
+.fourth-image{
+    background-image: url(../img/4.webp);
+    height: 500px;
+    width: 325px;
+    background-position: center;
+    background-size: cover;
+}
+/* / 4o riquadro */
+
+/* 5o riquadro */
+.aside-center-down {
+    position: relative;
+    float: left;
+    margin-right: 2%;
+}
+
+.fifth-image{
+    background-image: url(../img/5.webp);
+    display: inline-block;
+    height: 500px;
+    width: 325px;
+    background-position: center;
+    background-size: cover;
+}
+/* / 5o riquadro */
+
+/* 6o riquadro */
+.aside-right-down {
+    position: relative;
+    float: left;
+}
+
+.sixth-image{
+    background-image: url(../img/6.webp);
+    display: inline-block;
+    height: 500px;
+    width: 325px;
+    background-position: center;
+    background-size: cover;
+}
+/* / 6o riquadro */
+
+/* banner */
+.heart {
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    background-color: white;
+    padding: 4px 12px;
+    }
+
+.banner {
+    position: absolute;
+    bottom: 75px;
+}
+
+.banner1 {
+    display: inline-block;
+    background-color: #eb0037;
+    color: white;
+    padding: 4px;
+    text-align: center;
+}
+
+.banner2 {
+    display: inline-block;
+    background-color: #00875a;
+    color: white;
+    padding: 4px;
+    text-align: center;
+}
+/* / banner */
+
+/* background image */
+.aside-left-up:hover .heart {
+    color: red;
+}
+
+.aside-left-up:hover .first-image {
+    background-image: url(../img/1b.webp); 
+}
+
+.aside-center-up:hover .heart {
+    color: red;
+}
+
+.aside-center-up:hover .second-image {
+    background-image: url(../img/2b.webp);
+}
+
+.aside-right-up:hover .heart {
+    color: red;
+}
+
+.aside-right-up:hover .third-image {
+    background-image: url(../img/3b.webp);
+}
+
+
+.aside-left-down:hover .heart {
+    color: red;
+}
+
+.aside-left-down:hover .fourth-image {
+    background-image: url(../img/4b.webp);
+}
+
+
+.aside-center-down:hover .heart {
+    color: red;
+}
+
+.aside-center-down:hover .fifth-image {
+    background-image: url(../img/5b.webp);
+}
+
+
+.aside-right-down:hover .heart {
+    color: red;
+}
+
+.aside-right-down:hover .sixth-image {
+    background-image: url(../img/6b.webp);
+}
+
+/* / background image*/
+
+/* paragrafo con brand e prezzo */
+.paragrafo-aside {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.brand {
+    font-size: 12px;
+}
+
+.low-price {
+    color: red;
+}
+
+.high-price {
+    color: black;
+    text-decoration: line-through;
+    font-weight: normal;
+
+}
+/* / paragrafo con brand e prezzo */
