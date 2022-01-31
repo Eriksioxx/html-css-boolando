@@ -15,6 +15,13 @@
     clear: both;
 }
 
+main {
+    margin: 0 auto;
+    position: absolute;
+    left: 10%;
+    top: 5%;
+} 
+
 .riga1 {
     display: flex;
     padding: 0 6px;
