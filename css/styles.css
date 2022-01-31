@@ -15,22 +15,151 @@
     clear: both;
 }
 
+.riga1 {
+    display: flex;
+    padding: 0 6px;
+}
+
+/* 1o riquadro */
 .aside-left-up {
     position: relative;
     float: left;
-    width: 32%;
     margin-right: 2%;
-    border: 3px dashed red;
-    /* text-align: center; */
 }
 
 .aside-left-up .first-image {
-    width: 450px;
+    width: 400px;
     background-position: center;
     background-size: cover;
 }
 
+.aside-left-up .first-image1 {
+    display: none;
+    width: 400px;
+    background-position: center;
+    background-size: cover;
+}
+/* / 1o riquadro */
+
+/* 2o riquadro */
+.aside-center-up {
+    position: relative;
+    float: left;
+    margin-right: 2%;
+}
+
+.aside-center-up .second-image {
+    width: 400px;
+    background-position: center;
+    background-size: cover;
+}
+
+.aside-center-up .second-image1 {
+    display: none;
+    width: 400px;
+    background-position: center;
+    background-size: cover;
+}
+/* / 2o riquadro */
+
+/* 3o riquadro */
+.aside-right-up {
+    position: relative;
+    float: left;
+}
+
+.aside-right-up .third-image {
+    width: 400px;
+    background-position: center;
+    background-size: cover;
+}
+
+.aside-right-up .third-image1 {
+    display: none;
+    width: 400px;
+    background-position: center;
+    background-size: cover;
+}
+/* / 3o riquadro */
+
+.riga2 {
+    display: flex;
+    margin: 15px 0;
+    padding: 0 6px;
+}
+
+/* 4o riquadro */
+.aside-left-down {
+    position: relative;
+    float: left;
+    margin-right: 2%;
+}
+
+.aside-left-down .fourth-image {
+    width: 400px;
+    background-position: center;
+    background-size: cover;
+}
+
+.aside-left-down .fourth-image1 {
+    display: none;
+    width: 400px;
+    background-position: center;
+    background-size: cover;
+}
+/* / 4o riquadro */
+
+/* 5o riquadro */
+.aside-center-down {
+    position: relative;
+    float: left;
+    margin-right: 2%;
+}
+
+.aside-center-down .fifth-image {
+    width: 400px;
+    background-position: center;
+    background-size: cover;
+}
+
+.aside-center-down .fifth-image1 {
+    display: none;
+    width: 400px;
+    background-position: center;
+    background-size: cover;
+}
+/* / 5o riquadro */
+
+/* 6o riquadro */
+.aside-right-down {
+    position: relative;
+    float: left;
+}
+
+.aside-right-down .sixth-image {
+    width: 400px;
+    background-position: center;
+    background-size: cover;
+}
+
+.aside-right-down .sixth-image1 {
+    display: none;
+    width: 400px;
+    background-position: center;
+    background-size: cover;
+}
+/* / 6o riquadro */
+
 /* banner */
+.heart {
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    background-color: white;
+    padding: 4px 12px;
+    text-align: center;}
+
 .banner {
     position: absolute;
     bottom: 75px;
@@ -51,8 +180,81 @@
     padding: 4px;
     text-align: center;
 }
-
 /* / banner */
+
+/* background image */
+.aside-left-up:hover .heart {
+    color: red;
+}
+
+.aside-left-up:hover .first-image {
+    display: none; 
+}
+
+.aside-left-up:hover .first-image1 {
+    display: inline-block; 
+}
+
+.aside-center-up:hover .heart {
+    color: red;
+}
+
+.aside-center-up:hover .second-image {
+    display: none; 
+}
+
+.aside-center-up:hover .second-image1 {
+    display: inline-block; 
+}
+
+.aside-right-up:hover .heart {
+    color: red;
+}
+
+.aside-right-up:hover .third-image {
+    display: none; 
+}
+
+.aside-right-up:hover .third-image1 {
+    display: inline-block; 
+}
+
+.aside-left-down:hover .heart {
+    color: red;
+}
+
+.aside-left-down:hover .fourth-image {
+    display: none; 
+}
+
+.aside-left-down:hover .fourth-image1 {
+    display: inline-block; 
+}
+
+.aside-center-down:hover .heart {
+    color: red;
+}
+
+.aside-center-down:hover .fifth-image {
+    display: none; 
+}
+
+.aside-center-down:hover .fifth-image1 {
+    display: inline-block; 
+}
+
+.aside-right-down:hover .heart {
+    color: red;
+}
+
+.aside-right-down:hover .sixth-image {
+    display: none; 
+}
+
+.aside-right-down:hover .sixth-image1 {
+    display: inline-block; 
+}
+/* / background image*/
 
 /* paragrafo con brand e prezzo */
 .paragrafo-aside {
